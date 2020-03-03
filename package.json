@@ -1,0 +1,37 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadmaV/7-1-babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Badma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BadmaV/7-1-babel/issues"
+  },
+  "homepage": "https://github.com/BadmaV/7-1-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4"
+  }
+}
